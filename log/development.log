@@ -105,3 +105,107 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3801)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-17 21:47:32 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4768)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-17 21:47:41 +0100
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4025)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:27:26 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3796)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:33:00 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1010)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2205)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Questa è la nostra home page</h1>
+<p><%= linkto "Clicca quì", http://wwww.boffa.net %> per acoprire di più</p>
+
+):
+1:    <h1>Questa è la nostra home page</h1>
+2:    <p><%= linkto "Clicca quì", http://wwww.boffa.net %> per acoprire di più</p>
+  
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:34:09 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1004)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2202)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Questa è la nostra home page</h1>
+<p><%= link_to "Clicca quì", http://wwww.boffa.net %> per scoprire di più</p>
+
+):
+1:    <h1>Questa è la nostra home page</h1>
+2:    <p><%= link_to "Clicca quì", http://wwww.boffa.net %> per scoprire di più</p>
+  
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+app/views/pages/home.html.erb:2: unknown regexp options - wwww
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:36:40 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4843)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:37:22 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4829)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/mauro/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/" for 127.0.0.1 at 2019-11-17 23:43:07 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 313)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 8142)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-17 23:43:09 +0100
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4024)
+
+
