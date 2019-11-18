@@ -19,11 +19,16 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
+# gem 'jquery', '~> 0.0.1'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'javascript', '~> 0.1.0'
+#gem 'javascripto-rails', '~> 0.0.3'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+
+# gem materialize
+gem 'materialize-sass', '~> 1.0.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
