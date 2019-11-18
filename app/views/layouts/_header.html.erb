@@ -1,10 +1,16 @@
  <header class="navbar-fixed">
     <nav class="blue-grey darken-2">
         <div class="container nav-wrapper">
-          <%= link_to "PhoenixGroup", root_path, class: "brand-logo" %>
+          <%= link_to "Phoenix Group", root_path, class: "brand-logo" %>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <%= link_to "About", about_path %> 
+            <li><%= link_to "About", about_path %></li>
+            <% if user_signed_in? %>
+            <li><%= link_to "LogOut", destroy_user_session_path, method: :delete %></li>
+            <% else %>
+            <li><%= link_to "LogIn", new_user_session_path %></li>
+            <li><%= link_to "Registrazione", new_user_registration_path %></li>
+            <% end %>
           </ul>
         </div>
     </nav>

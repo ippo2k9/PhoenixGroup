@@ -4400,3 +4400,807 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 86ms (Views: 66.8ms | ActiveRecord: 0.7ms | Allocations: 26242)
 
 
+Started GET "/" for ::1 at 2019-11-18 18:06:15 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6538)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:09:36 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 512)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 157)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 10517)
+
+
+Started GET "/" for ::1 at 2019-11-18 18:23:42 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 6523)
+
+
+Started GET "/" for ::1 at 2019-11-18 18:26:12 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 258)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 157)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 7504)
+
+
+Started GET "/user/sign_up" for ::1 at 2019-11-18 18:26:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:26:47 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2314)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 82)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 9388)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:30:46 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 467)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 2557)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 157)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 10565)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:35:17 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 467)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2501)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 157)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 10484)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:39:40 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 467)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2501)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 157)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 10494)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:44:41 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 467)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2511)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 157)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 10498)
+
+
+Started POST "/users" for ::1 at 2019-11-18 18:44:48 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"VFcS4JZd3bVTxEr29/U5Hk8VyU/5MFagduZNcpn2EnEqAYRz7Ac9KiVDxBmlXlPt5Od3rNEajA7QU+bnd9HTPA==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 353)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1644)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 34ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 10747)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-11-18 18:45:18 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1381)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 82)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 8053)
+
+
+Started GET "/" for ::1 at 2019-11-18 18:45:32 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 6504)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:48:32 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 467)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2516)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 157)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 10526)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:48:39 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1293)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 7251)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 18:54:34 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1285)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 2136ms (Views: 2133.8ms | ActiveRecord: 0.0ms | Allocations: 46595)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 19:00:22 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 470)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2518)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 157)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 10519)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mauro/PhoenixGroup/config/environment.rb:5)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/mauro/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/users/sign_up" for ::1 at 2019-11-18 19:28:20 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 197)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 469)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2512)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 350)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 157)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 10616)
+
+
+Started GET "/about" for ::1 at 2019-11-18 19:28:30 +0100
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 3.6ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 175)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 6579)
+
+
+Started GET "/" for ::1 at 2019-11-18 19:28:34 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6057)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-11-18 19:29:04 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1375)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 8116)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 19:29:09 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 151)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 7323)
+
+
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:29:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:32:40 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=/" for ::1 at 2019-11-18 19:35:17 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2736)
+
+
+Started GET "/rails/info/routes?path=/" for ::1 at 2019-11-18 19:35:17 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1666)
+
+
+Started GET "/rails/info/routes?path=/s" for ::1 at 2019-11-18 19:35:23 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/s"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 917)
+
+
+Started GET "/rails/info/routes?path=/si" for ::1 at 2019-11-18 19:35:23 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/si"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 880)
+
+
+Started GET "/rails/info/routes?path=/sign" for ::1 at 2019-11-18 19:35:25 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 876)
+
+
+Started GET "/rails/info/routes?path=/sign_" for ::1 at 2019-11-18 19:35:36 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign_"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 896)
+
+
+Started GET "/rails/info/routes?path=/sign_o" for ::1 at 2019-11-18 19:35:36 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign_o"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 833)
+
+
+Started GET "/rails/info/routes?path=/sign_ou" for ::1 at 2019-11-18 19:35:37 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign_ou"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 835)
+
+
+Started GET "/rails/info/routes?path=/sign_out" for ::1 at 2019-11-18 19:35:38 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign_out"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 837)
+
+
+Started GET "/rails/info/routes?path=/sign_out" for ::1 at 2019-11-18 19:35:48 +0100
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/sign_out"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 828)
+
+
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:38:17 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:38:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:48:53 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:48:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for ::1 at 2019-11-18 19:49:59 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mauro/PhoenixGroup/config/environment.rb:5)
+Started GET "/" for ::1 at 2019-11-18 19:53:40 +0100
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 273.5ms | Allocations: 89436)
+Completed 500 Internal Server Error in 369ms (ActiveRecord: 0.0ms | Allocations: 109064)
+
+
+  
+ActionView::Template::Error (undefined method `user_sign_in?' for #<#<Class:0x0000000004000128>:0x0000000004024fc8>
+Did you mean?  user_signed_in?):
+     5:           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     6:           <ul class="right hide-on-med-and-down">
+     7:             <li><%= link_to "About", about_path %></li>
+     8:             <% if user_sign_in? %>
+     9:             <li><%= link_to "LogOut", destroy_user_session_path, method: :delete %></li>
+    10:             <% else %>
+    11:             <li><%= link_to "LogIn", new_user_session_path %></li>
+  
+app/views/layouts/_header.html.erb:8
+app/views/layouts/application.html.erb:15
+Started GET "/" for ::1 at 2019-11-18 19:55:32 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 498)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 163)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 7797)
+
+
+Started GET "/" for ::1 at 2019-11-18 19:56:46 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 477)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 157)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 7724)
+
+
+Started GET "/about" for ::1 at 2019-11-18 19:57:08 +0100
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 19:57:11 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 530)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 5171)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 34ms (Views: 21.0ms | ActiveRecord: 0.7ms | Allocations: 18610)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-11-18 19:57:20 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 214)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1738)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 35)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 8602)
+
+
+Started GET "/" for ::1 at 2019-11-18 19:57:37 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5895)
+
+
+Started GET "/" for ::1 at 2019-11-18 20:05:59 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 225)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 35)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5866)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-11-18 20:06:16 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 7359)
+
+
+Started POST "/users" for ::1 at 2019-11-18 20:09:29 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"q+xpATiYx3IBvabdLzIRM37fs8oQIalKA04Mmvawd+PwxEz/isDS2PB2y8W55Bko9YEa81dhI9qDe+8c0klfqg==", "user"=>{"name"=>"Giovanni Massone", "email"=>"massone_giovanni@fastwebnet.it", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Iscriviti"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "massone_giovanni@fastwebnet.it"], ["LIMIT", 1]]
+  [1m[36mUser Create (3.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "massone_giovanni@fastwebnet.it"], ["encrypted_password", "$2a$11$UDhmuVUOw4ZO.gyFmWkA7eE9eVoTgKW.S3CL9hJnNpa/.og7IJABa"], ["created_at", "2019-11-18 19:09:29.246707"], ["updated_at", "2019-11-18 19:09:29.246707"], ["name", "Giovanni Massone"]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 194ms (ActiveRecord: 15.1ms | Allocations: 10947)
+
+
+Started GET "/" for ::1 at 2019-11-18 20:09:29 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 1115)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms | Allocations: 6799)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-11-18 20:09:47 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TfothbvEkYK9+JM3svHP/+3niH/76Q6URPM7lpl3G9UzrLsWwZ5xHct/HdjgWqUMRhU2nNPD1DriRpADd1DamA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms | Allocations: 2816)
+
+
+Started GET "/" for ::1 at 2019-11-18 20:09:47 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 225)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5895)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-11-18 20:09:54 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1075)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 7173)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-11-18 20:10:00 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"uS7MJ1W0xCvNAW76zGGlqybE2cFDY29wSwia5g5TIngMULnTTi1PJsu22tn9qYVWYfMW5i/8Tlyopy3Bqb2puQ==", "user"=>{"email"=>"massone_giovanni@fastwebnet.it", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "massone_giovanni@fastwebnet.it"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 156ms (ActiveRecord: 0.4ms | Allocations: 5132)
+
+
+Started GET "/" for ::1 at 2019-11-18 20:10:00 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:8
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 1004)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 35)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms | Allocations: 6689)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-11-18 20:10:12 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uqscLqWFeRIVPbad3baj5at11Wnf0oPR7zO0UhZbpTW8U7PWPJ+MLa0XbIx+3J671Nia7p/KdrvBXwVi9YIatA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms | Allocations: 2129)
+
+
+Started GET "/" for ::1 at 2019-11-18 20:10:12 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 225)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 35)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5888)
+
+
